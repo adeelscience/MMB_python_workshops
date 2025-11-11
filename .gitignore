@@ -1,0 +1,105 @@
+# Image files - Microscopy and general formats
+*.png
+*.PNG
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.tiff
+*.tif
+*.TIFF
+*.TIF
+*.nd2
+*.ND2
+*.czi
+*.CZI
+*.lif
+*.LIF
+*.lsm
+*.LSM
+*.oib
+*.OIB
+*.ome.tif
+*.ome.tiff
+*.svs
+*.SVS
+*.ndpi
+*.NDPI
+*.scn
+*.SCN
+*.bmp
+*.BMP
+*.gif
+*.GIF
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# macOS Icon files
+Icon
+Icon?
+
+# macOS Thumbnails
+._*
+
+# macOS Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# macOS Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Python artifacts (common in data analysis workflows)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# R artifacts (if using R alongside Python)
+.Rhistory
+.RData
+.Rproj.user
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files that are typically too large for git
+*.h5
+*.hdf5
+*.mat
+*.npy
+*.npz
+
+# Temporary files
+*.tmp
+*.temp
+*.log
